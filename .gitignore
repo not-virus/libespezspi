@@ -1,0 +1,5 @@
+# Ignore the datasheet PDF
+*.pdf
+
+# Ignore VSCode files
+**/.vscode/

@@ -1,0 +1,25 @@
+menu "libespezspi Configuration"
+
+    config EZSPI_PIN_MISO
+        int "MISO GPIO number"
+        range 0 16
+        default 12
+        help
+            Defines the pin used as the MISO signal in SPI communication.
+
+    config EZSPI_PIN_MOSI
+        int "MOSI GPIO number"
+        range 0 16
+        default 13
+        help
+            Defines the pin used as the MOSI signal in SPI communication.
+        
+    config EZSPI_PIN_CLK
+        int "SCLK GPIO number"
+        range 0 16
+        default 14
+        help
+            Defines the pin used as the SCLK (serial clock) signal in SPI
+            communication.
+
+endmenu
