@@ -1,7 +1,7 @@
 /**
  * libespezspi.c
  * 
- * Written by Cameron Krueger
+ * Written by Cam Krueger
  * 8 August 2021
  * 
  * Implementation file for libespezspi, an attempt to create a simpler and
